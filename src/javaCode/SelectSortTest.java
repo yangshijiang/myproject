@@ -25,7 +25,6 @@ class SelectSortTest {
     public void insertSort(){
         int[] arr={7,3,9,5,6,8,1};
         InsertSort.insertSort(arr);
-        //dsadad1132321321312131
 
     }
 }
