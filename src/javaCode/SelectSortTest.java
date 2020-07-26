@@ -10,6 +10,7 @@ import org.junit.jupiter.api.Test;
  * @Date: 2020/7/24 15:14
  */
 class SelectSortTest {
+
     @Test
     public void selectSortTest(){
         SelectSort selectSort=new SelectSort();
