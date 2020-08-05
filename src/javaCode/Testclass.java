@@ -1,5 +1,7 @@
 package javaCode;
 
+import java.util.*;
+
 /**
  * @Author: 杨世江
  * @Description:
@@ -7,6 +9,17 @@ package javaCode;
  */
 public class Testclass {
     public static void main(String[] args){
-        System.out.println("hello,git");
+        Scanner scan=new Scanner(System.in);
+        String line=scan.nextLine();
+        System.out.println(line);
+
+        ArrayList<Integer> list=new ArrayList<Integer>();
+        Scanner scanner=new Scanner(line);
+        while(scanner.hasNextInt()){
+            list.add(scanner.nextInt());
+        }
+
+        System.out.println(list.toString());
+
     }
 }
